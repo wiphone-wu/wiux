@@ -8,10 +8,10 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@wiphone/wiux">
-    <img src="https://img.shields.io/npm/v/wiux.svg?style=flat-square" alt="npm">
+    <img src="https://img.shields.io/npm/v/@wiphone/wiux.svg?style=flat-square" alt="npm">
   </a>
   <a href="https://www.npmjs.com/package/@wiphone/wiux">
-    <img src="https://img.shields.io/npm/l/wiux.svg?style=flat-square" alt="license">
+    <img src="https://img.shields.io/npm/l/@wiphone/wiux.svg?style=flat-square" alt="license">
   </a>
   <br>
   <a href="https://github.com/wiphone-wu/wiux">
