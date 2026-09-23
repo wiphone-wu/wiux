@@ -1,0 +1,37 @@
+.wiux-redDot,.wiux-redDot-border,.wiux-redDot-s {
+  position: relative;
+}
+
+.wiux-redDot:after,.wiux-redDot-border:after,.wiux-redDot-s:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #f74c31;
+  border-radius: 5px;
+  right: -3px;
+  top: -3px;
+  background-clip: padding-box;
+}
+
+.wiux-redDot-border:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  right: -4px;
+  top: -4px;
+  background-clip: padding-box;
+  padding: 1px;
+}
+
+.wiux-redDot-s:after {
+  width: 6px;
+  height: 6px;
+  top: -5px;
+  right: -5px;
+}

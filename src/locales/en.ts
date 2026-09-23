@@ -1,0 +1,16 @@
+export default {
+  'OK': 'OK',
+  'Confirm': 'Confirm',
+  'Cancel': 'Cancel',
+  'Done': 'Done',
+  'Su': 'Su',
+  'Mo': 'Mo',
+  'Tu': 'Tu',
+  'We': 'We',
+  'Th': 'Th',
+  'Fr': 'Fr',
+  'Sa': 'Sa',
+  'Search': 'Search',
+  'Uploader.title': 'Image Upload',
+  'Uploader.limitPrompt': 'Cannot upload more than {limit} images',
+}

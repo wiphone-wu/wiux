@@ -1,0 +1,77 @@
+{
+  "name": "@wiphone/wiux",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/wiux.umd.js",
+  "module": "./dist/wiux.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/wiux.es.js",
+      "require": "./dist/wiux.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "description": "Mobile web UI based on Vue 3 and WeUI",
+  "keywords": [
+    "vux",
+    "wiux",
+    "vue",
+    "vue3",
+    "vue ui",
+    "weui",
+    "vue-components",
+    "web-components",
+    "component",
+    "components",
+    "mobile ui",
+    "framework",
+    "frontend"
+  ],
+  "author": "wiphone <wiphone41@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wiphone-wu/wiux"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "rolldown --config rolldown.config.mjs",
+    "dev": "rolldown --config rolldown.config.mjs --watch",
+    "demo": "vite demo --config demo/vite.config.ts",
+    "demo:build": "vite build demo --config demo/vite.config.ts",
+    "lint": "eslint --ext .ts,.vue src/",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "@types/validator": "^13.15.10",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "less": "^4.9.0",
+    "rolldown": "^1.2.6",
+    "typescript": "^5.9.3",
+    "unplugin-vue": "^7.2.0",
+    "vite": "^8.2.2",
+    "vue": "^3.5.42",
+    "vue-router": "^4.6.4"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "dependencies": {
+    "@antv/f-vue": "^1.10.0",
+    "@antv/f2": "^5.14.0",
+    "@vitejs/plugin-vue-jsx": "^5.1.6",
+    "async-validator": "^4.2.5",
+    "countup.js": "^2.10.1",
+    "object-assign": "^4.1.1",
+    "photoswipe": "^4.1.3",
+    "qr.js": "^0.0.0",
+    "validator": "^13.15.35",
+    "vanilla-masker": "^1.2.0",
+    "vue-i18n": "^11.4.10"
+  }
+}

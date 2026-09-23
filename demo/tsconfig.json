@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "paths": {
+      "wiux": ["./../src/index.ts"]
+    },
+    "lib": ["ES2020", "DOM", "DOM.Iterable"]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.vue",
+    "../src/**/*.ts",
+    "../src/**/*.vue",
+    "../src/**/*.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}

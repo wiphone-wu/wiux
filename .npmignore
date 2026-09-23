@@ -1,0 +1,9 @@
+src/
+demo/
+scripts/
+node_modules/
+*.log
+.DS_Store
+rolldown.config.mjs
+tsconfig.json
+.history/

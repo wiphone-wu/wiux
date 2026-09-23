@@ -1,0 +1,16 @@
+export default {
+  'OK': '确定',
+  'Confirm': '确定',
+  'Cancel': '取消',
+  'Done': '确定',
+  'Su': '日',
+  'Mo': '一',
+  'Tu': '二',
+  'We': '三',
+  'Th': '四',
+  'Fr': '五',
+  'Sa': '六',
+  'Search': '搜索',
+  'Uploader.title': '图片上传',
+  'Uploader.limitPrompt': '不能上传超过{limit}张图片',
+}
