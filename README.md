@@ -7,10 +7,10 @@
 <p align="center"><b>wiux</b> — Mobile web UI Components based on Vue 3 and WeUI.</p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/wiux">
+  <a href="https://www.npmjs.com/package/@wiphone/wiux">
     <img src="https://img.shields.io/npm/v/wiux.svg?style=flat-square" alt="npm">
   </a>
-  <a href="https://www.npmjs.com/package/wiux">
+  <a href="https://www.npmjs.com/package/@wiphone/wiux">
     <img src="https://img.shields.io/npm/l/wiux.svg?style=flat-square" alt="license">
   </a>
   <br>
@@ -269,6 +269,7 @@ npm run build
 
 ## Wiux is Inspired or Powered By
 
+- [Vux](https://github.com/airyland/vux)
 - [Vue](https://github.com/vuejs/vue)
 - [WeUI](https://github.com/weui/weui)
 - [Ant Design Mobile](https://github.com/ant-design/ant-design-mobile)
